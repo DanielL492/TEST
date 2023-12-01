@@ -14,7 +14,7 @@ Aaron.then((result) => {
 const URL = `https://api.quotable.io/random`; 
 // .io/$(thing) to use variable
 async function getData(URL) {
-    try {
+    try { //pretend forEach for each card
         const response = await fetch(URL);
         console.log(response);
         const data = await response.json();
