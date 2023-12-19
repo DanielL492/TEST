@@ -11,7 +11,7 @@ Aaron.then((result) => {
 })*/
 
 //REST API app program interface
-/*const URL = `https://api.quotable.io/random`; 
+const URL = `https://api.quotable.io/random`; 
 // .io/$(thing) to use variable
 async function getData(URL) {
     try { //pretend forEach for each card
@@ -22,12 +22,12 @@ async function getData(URL) {
         document.querySelector("h2").textContent = data.author;
     } catch (error) {}
 }
-getData(URL);*/
+getData(URL);
 
 
 
 
-//ASSESSMENT Prep
+/*//ASSESSMENT Prep
 
 const dennis = {
     name: "Dennis",
@@ -58,3 +58,21 @@ function needle(name, search) {
 
 console.log(needle(dennis.name,"D")); 
 //lowercase d would provide false
+
+function sortString(name) {
+    let x = [...name].sort();
+    console.log(x);
+}
+sortString("dfhskfh")
+let x = [1, 2, 3];
+let y = [4, 5, 6];
+let z = [...x, ...y]; //{}?
+//x = [...x, ...y]; would result in [4, 5, 6]
+console.log(z);
+
+function removeL(name) {
+    let x = name;
+    x.splice(-1);
+    console.log(x);
+}
+removeL(dennis.name);*/
